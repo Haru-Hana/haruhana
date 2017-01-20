@@ -56,6 +56,8 @@ a {
 
 a + span {
     float: right;
+    text-align: left;
+    width: 2.5em; /*arbitrary; allows for 1 decimal point; if you want to align right, delete this line and the line above*/
     padding-left: 0.33em;
     background: white;
 }
@@ -65,4 +67,8 @@ img {
     max-width: 100%;
     padding: 0;
     margin: 0;
+}
+
+.table .th {
+
 }
