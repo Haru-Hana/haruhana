@@ -1,0 +1,13 @@
+/*Common overrides*/
+
+.max-width {
+    width: 100% !important;
+}
+
+.no-padding, .no-padding * {
+    padding: 0 !important;
+}
+
+.no-margin, .no-margin * {
+    margin: 0 !important;
+}

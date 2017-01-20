@@ -1,0 +1,68 @@
+/*https://github.com/AllanWang/Allan-Website/blob/master/bower_components/materialize/dist/css/materialize.css*/
+
+header {
+    text-align: center;
+    font-size: 600%;
+}
+
+table {
+    width: 100%;
+    font-size: 150%;
+}
+
+td {
+    padding-right: 30px;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+/*
+Autogenerate Dots
+http://stackoverflow.com/a/17717388
+*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.dotted-list {
+    width: 100%;
+}
+
+.inner {
+    padding-left: 20px;
+}
+
+li:not(.nested):before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: "...................." "...................." "...................." "...................." "...................." "...................." "...................."
+}
+
+li a:first-child {
+    padding-right: 0.33em;
+    background: white
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
